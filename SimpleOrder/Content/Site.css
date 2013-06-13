@@ -1,0 +1,71 @@
+﻿
+
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+body { font-family: Cambria, Georgia, "Times New Roman"; margin: 0; }
+div#header div.title, div.item H3, div.item H4, div.pager A {
+font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+div#header { background-color: #444; border-bottom: 2px solid #111; color: White; }
+div#header DIV.title { font-size: 2em; padding: .6em; }
+div#content { border-left: 2px solid gray; margin-left: 9em; padding: 1em; }
+div#categories { float: left; width: 8em; padding: .3em; }
+div.item { border-top: 1px dotted gray; padding-top: .7em; margin-bottom: .7em; }
+div.item:first-child { border-top:none; padding-top: 0; }
+div.item H3 { font-size: 1.3em; margin: 0 0 .25em 0; }
+div.item H4 { font-size: 1.1em; margin:.4em 0 0 0; }
+div.pager { text-align:right; border-top: 2px solid silver;
+padding: .5em 0 0 0; margin-top: 1em; }
+div.pager A { font-size: 1.1em; color: #666; text-decoration: none;
+padding: 0 .4em 0 .4em; }
+div.pager A:hover { background-color: Silver; }
+div.pager A.selected { background-color: #353535; color: White; }
