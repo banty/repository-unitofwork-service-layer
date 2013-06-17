@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleOrder.Business", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleOrder.Business.Tests", "SimpleOrder.Business.Tests\SimpleOrder.Business.Tests.csproj", "{C0BFCE14-CDD5-4AB6-8A1E-B2AF7D0A8962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleOrder.Business.Nunit.Tests", "SimpleOrder.Business.Nunit.Tests\SimpleOrder.Business.Nunit.Tests.csproj", "{BF0EC7FA-3BFB-4AE0-80A4-B67B799BBBBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{C0BFCE14-CDD5-4AB6-8A1E-B2AF7D0A8962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0BFCE14-CDD5-4AB6-8A1E-B2AF7D0A8962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0BFCE14-CDD5-4AB6-8A1E-B2AF7D0A8962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0EC7FA-3BFB-4AE0-80A4-B67B799BBBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0EC7FA-3BFB-4AE0-80A4-B67B799BBBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0EC7FA-3BFB-4AE0-80A4-B67B799BBBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0EC7FA-3BFB-4AE0-80A4-B67B799BBBBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
